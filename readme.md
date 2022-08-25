@@ -1,5 +1,7 @@
 ## Improving Node.js Application Performance With Clustering
 
+![Mahbubur Rahman Turzo](/screenshots/cluster.jpg?raw=true "Mahbubur Rahman Turzo")
+
 When building a production application, you are usually on the lookout for ways to optimize its performance while keeping any possible trade-offs in mind.
 
 An instance of Node.js runs in a single thread which means that on a multi-core system (which most computers are these days), not all cores will be utilized by the app. To take advantage of the other available cores, you can launch a cluster of Node.js processes and distribute the load between them.
